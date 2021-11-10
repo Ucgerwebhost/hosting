@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+  </head>
+<title>UCGER Web-Hosting</title>
+
+<link rel="icon" type="image/x-icon" href="https://favicon-generator.org/favicon-generator/htdocs/favicons/2015-01-16/7bb369df38a03ebd546e41442f35553e.ico">
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+body {
+  background-image: url('parallax1.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="https://ucgerwebhost.w3spaces.com/index.html/#home" class="w3-bar-item w3-button w3-wide">UCGER</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="https://ucgerwebhost.w3spaces.com/#Webhosting" class="w3-bar-item w3-button"><i class="fa fa-bars"></i> Web Hosting</a> 
+   <a href="singin.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Sing Up</a> 
+ <a href="https://ucgerwebhost.w3spaces.com/index.html/#Cpanel" class="w3-bar-item w3-button"><i class="fa fa-phone"></i> Cpanel</a>
+      
+            <a href="https://ucgerwebhost.w3spaces.com/index.html/#subdomain" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Sub-Domain</a>
+            <a href="https://ucgerwebhost.w3spaces.com/index.html/#domain" class="w3-bar-item w3-button"><i class="fa fa-diamond"></i> Domain</a>
+      <a href="https://ucgerwebhost.w3spaces.com/index.html/#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">X</a>
+  <a href="https://ucgerwebhost.w3spaces.com/index.html/#Webhosting" onclick="w3_close()" class="w3-bar-item w3-button"> Web Hosting</a>
+  <a href="singin.html" onclick="w3_close()" class="w3-bar-item w3-button"> Sing Up</a> 
+  <a href="https://ucgerwebhost.w3spaces.com/index.html/#Cpanel" onclick="w3_close()" class="w3-bar-item w3-button"> Cpanel</a> 
+  <a href="https://ucgerwebhost.w3spaces.com/index.html/#subdomain" onclick="w3_close()" class="w3-bar-item w3-button"> Sub-Domain</a>
+  <a href="https://ucgerwebhost.w3spaces.com/index.html/#domain" onclick="w3_close()" class="w3-bar-item w3-button"> Domain</a>
+   <a href="https://ucgerwebhost.w3spaces.com/index.html/#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav><br><br>
+    <h1 style="text-align: left;" ><span style="color: white;">UCGER</span></h1>
+<fieldset style="text-align: left; border-color: transparent;" >
+  <form action="index.html">
+    <span style="color: white;">
+E-mail <input type=email name=email placeholder="E-mail"  class="w3-button w3-black w3-padding-large" required="" size=><br><br>
+   Your Name <input type=text name=Name placeholder="Your Name" class="w3-button w3-black w3-padding-large" required="" size=><br><br>
+  Password <input type=password name=passcode placeholder="Password" class="w3-button w3-black w3-padding-large" required="" size=><br>   <br>
+  <div class="g-recaptcha" data-sitekey="6LcZrSUdAAAAAI5hcew3cf6xV99ASZriYsrELmWr"></div>    
+ <br>
+    <td><input type="Space" name="Space" value="5GB"  placeholder="Space" hidden=""></td></span>
+<button style="" class="w3-button w3-black w3-padding-large" >Sing Up</button>
+</form>
+
+  </fieldset>
+ 
+    
+
+
+ 
+
+    <!-- Right-sided navbar links -->
+
+
+<!-- Header with full-height image -->
+  
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
